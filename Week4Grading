@@ -1,0 +1,27 @@
+# Grading Percentage
+print('Please enter your grade percentage')  # Ask person to enter grade percentage
+grade_percentage = int(input('Grade Percentage: '))
+if grade_percentage >= 93:
+    print('Grade: A')  # A 93 and above
+elif 90 <= grade_percentage <= 92:
+    print('Grade: A-')  # A- 90-92
+elif 87 <= grade_percentage <= 89:
+    print('Grade: B+')  # B+ 87-89
+elif 83 <= grade_percentage <= 86:
+    print('Grade: B')  # B 83-86
+elif 80 <= grade_percentage <= 82:
+    print('Grade: B-')  # B- 80-82
+elif 77 <= grade_percentage <= 79:
+    print('Grade: C+')  # C+ 77-79
+elif 73 <= grade_percentage <= 76:
+    print('Grade: C')  # C 73-76
+elif 70 <= grade_percentage <= 72:
+    print('Grade: C-')  # C- 70-72
+elif 67 <= grade_percentage <= 69:
+    print('Grade: D+')  # D+ 67-69
+elif 63 <= grade_percentage <= 66:
+    print('Grade: D')  # D 63-66
+elif 60 <= grade_percentage <= 62:
+    print('Grade: D-')  # D- 60-62
+elif grade_percentage <= 59:
+    print('Grade: F')  # F 59 below
